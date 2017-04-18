@@ -1,0 +1,6 @@
+- spectacle
+- github ssh setup
+
+# to figure out
+- mapping Caps Lock to Ctrl
+- terminal colors
