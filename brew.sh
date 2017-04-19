@@ -23,11 +23,14 @@ brew upgrade
 
 
 brew install \
+  vim \
   macvim \
 	git \
 	ack \
 	tree \
-	bash-completion
+	bash-completion \
+  hub \
+  tmux
 
 
 brew cask install \
@@ -36,4 +39,7 @@ brew cask install \
   dropbox \
   slack \
   evernote \
-  1password
+  1password \
+  docker \
+  spectacle \
+  omnigraffle 
