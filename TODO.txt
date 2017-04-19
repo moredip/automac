@@ -1,6 +1,8 @@
 - spectacle
+- tmux
 - github ssh setup
+- hot corners
 
-# to figure out
+# Not yet automated
 - mapping Caps Lock to Ctrl
 - terminal colors

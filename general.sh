@@ -2,4 +2,3 @@
 set -e -u
 
 [ -d ~/.ssh ] || ssh-keygen
-
