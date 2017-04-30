@@ -30,8 +30,11 @@ brew install \
 	tree \
 	bash-completion \
   hub \
-  tmux
-
+  tmux \
+  heroku \
+  node \
+  yarn \
+	s3cmd
 
 brew cask install \
   google-chrome \
@@ -42,4 +45,5 @@ brew cask install \
   1password \
   docker \
   spectacle \
-  omnigraffle 
+  omnigraffle \
+	java

@@ -5,3 +5,4 @@
 - [ ] install apps from App Store 
   - MindNode Pro 2
   - Keynote
+- [ ] `s3cmd --configure` using keys in Dropbox
