@@ -28,13 +28,20 @@ brew install \
 	git \
 	ack \
 	tree \
+	pstree \
 	bash-completion \
   hub \
   tmux \
   heroku \
   node \
   yarn \
-	s3cmd
+	s3cmd \
+	leiningen \
+	graphviz \
+	cloc \
+	jq \
+	reattach-to-user-namespace \
+	postgres # no easy way to install just the psql client
 
 brew cask install \
   google-chrome \
@@ -46,4 +53,5 @@ brew cask install \
   docker \
   spectacle \
   omnigraffle \
-	java
+	java \
+	kindle
