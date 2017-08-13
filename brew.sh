@@ -41,6 +41,8 @@ brew install \
 	cloc \
 	jq \
 	reattach-to-user-namespace \
+  p7zip \
+	python3 \
 	postgres # no easy way to install just the psql client
 
 brew cask install \
@@ -54,4 +56,8 @@ brew cask install \
   spectacle \
   omnigraffle \
 	java \
-	kindle
+	kindle \
+	spotify \
+	sonos \
+	virtualbox \
+	arduino
