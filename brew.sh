@@ -58,6 +58,5 @@ brew cask install \
 	java \
 	kindle \
 	spotify \
-	sonos \
 	virtualbox \
 	arduino
