@@ -59,4 +59,5 @@ brew cask install \
 	kindle \
 	spotify \
 	virtualbox \
+	gitup \
 	arduino
