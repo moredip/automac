@@ -34,8 +34,10 @@ brew install \
   tmux \
   heroku \
   node \
+  npm \
   yarn \
 	s3cmd \
+	awscli \
 	leiningen \
 	graphviz \
 	cloc \
@@ -60,4 +62,7 @@ brew cask install \
 	spotify \
 	virtualbox \
 	gitup \
-	arduino
+	arduino \
+	pritunl \
+	postman \
+	whatsapp
