@@ -23,7 +23,6 @@ brew upgrade
 
 
 brew install \
-  vim \
   macvim \
 	git \
 	ack \
@@ -32,7 +31,7 @@ brew install \
 	bash-completion \
   hub \
   tmux \
-  heroku \
+  heroku/brew/heroku \
   node \
   npm \
   yarn \
@@ -60,7 +59,6 @@ brew cask install \
 	java \
 	kindle \
 	spotify \
-	virtualbox \
 	gitup \
 	arduino \
 	pritunl \
