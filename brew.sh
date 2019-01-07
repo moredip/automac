@@ -44,6 +44,7 @@ brew install \
 	reattach-to-user-namespace \
   p7zip \
 	python3 \
+	watchman \
 	postgres # no easy way to install just the psql client
 
 brew cask install \
@@ -57,10 +58,14 @@ brew cask install \
   spectacle \
   omnigraffle \
 	java \
+	java8 \
 	kindle \
 	spotify \
 	gitup \
 	arduino \
-	pritunl \
 	postman \
-	whatsapp
+	whatsapp \
+	intellij-idea-ce \
+	toggl \
+	graphiql \
+	tunnelblick
