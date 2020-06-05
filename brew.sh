@@ -68,4 +68,5 @@ brew cask install \
 	intellij-idea-ce \
 	toggl \
 	graphiql \
-	tunnelblick
+	tunnelblick \
+	send-to-kindle
