@@ -20,34 +20,37 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-
-
 brew install \
-  macvim \
-	git \
-	ack \
-	tree \
-	pstree \
-	bash-completion \
+  git \
+  ack \
+  tree \
+  pstree \
+  bash-completion \
   hub \
   tmux \
   heroku/brew/heroku \
   node \
   npm \
   yarn \
-	s3cmd \
-	awscli \
-	leiningen \
-	graphviz \
-	cloc \
-	jq \
-	reattach-to-user-namespace \
+  s3cmd \
+  awscli \
+  leiningen \
+  graphviz \
+  cloc \
+  jq \
+  reattach-to-user-namespace \
   p7zip \
-	python3 \
-	watchman \
-	postgres # no easy way to install just the psql client
+  python3 \
+  watchman \
+  pulumi \
+  hugo \
+  postgres # no easy way to install just the psql client
 
-brew cask install \
+brew tap d12frosted/emacs-plus
+brew install emacs-plus
+brew services start d12frosted/emacs-plus/emacs-plus
+
+brew install --cask \
   google-chrome \
   skype \
   dropbox \
@@ -57,15 +60,18 @@ brew cask install \
   docker \
   spectacle \
   omnigraffle \
-	java \
-	java8 \
-	kindle \
-	spotify \
-	gitup \
-	arduino \
-	postman \
-	whatsapp \
-	intellij-idea-ce \
-	toggl \
-	graphiql \
-	tunnelblick
+  java \
+  kindle \
+  spotify \
+  gitup \
+  arduino \
+  postman \
+  whatsapp \
+  intellij-idea-ce \
+  toggl \
+  graphiql \
+  tunnelblick \
+  caffeine \
+  autodesk-fusion360 \
+  balenaetcher \
+  prusaslicer
