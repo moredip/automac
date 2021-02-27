@@ -61,6 +61,7 @@ brew install --cask \
   spectacle \
   omnigraffle \
   java \
+  java8 \
   kindle \
   spotify \
   gitup \
@@ -74,4 +75,5 @@ brew install --cask \
   caffeine \
   autodesk-fusion360 \
   balenaetcher \
-  prusaslicer
+  prusaslicer \
+  send-to-kindle
