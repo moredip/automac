@@ -57,6 +57,7 @@ brew install --cask \
   slack \
   evernote \
   1password \
+  1password-cli \
   docker \
   spectacle \
   omnigraffle \
