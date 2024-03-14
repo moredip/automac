@@ -11,7 +11,7 @@ sudo -v
 # Install if we don't have it
 if test ! $(which brew); then
   echo "Installing homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # Make sure we’re using the latest Homebrew.
@@ -20,61 +20,64 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-brew install \
-  git \
-  ack \
-  tree \
-  pstree \
-  bash-completion \
-  hub \
-  tmux \
-  heroku/brew/heroku \
-  node \
-  npm \
-  yarn \
-  s3cmd \
-  awscli \
-  leiningen \
-  graphviz \
-  cloc \
-  jq \
-  reattach-to-user-namespace \
-  p7zip \
-  python3 \
-  watchman \
-  pulumi \
-  hugo \
-  postgres # no easy way to install just the psql client
+# install everything in Brewfile
+brew bundle install
 
-brew tap d12frosted/emacs-plus
-brew install emacs-plus
-brew services start d12frosted/emacs-plus/emacs-plus
+# brew install \
+#   git \
+#   ack \
+#   tree \
+#   pstree \
+#   bash-completion \
+#   hub \
+#   tmux \
+#   heroku/brew/heroku \
+#   node \
+#   npm \
+#   yarn \
+#   s3cmd \
+#   awscli \
+#   leiningen \
+#   graphviz \
+#   cloc \
+#   jq \
+#   reattach-to-user-namespace \
+#   p7zip \
+#   python3 \
+#   watchman \
+#   pulumi \
+#   hugo \
+#   postgres # no easy way to install just the psql client
 
-brew install --cask \
-  google-chrome \
-  skype \
-  dropbox \
-  slack \
-  evernote \
-  1password \
-  1password-cli \
-  docker \
-  spectacle \
-  omnigraffle \
-  java \
-  java8 \
-  kindle \
-  spotify \
-  gitup \
-  arduino \
-  postman \
-  whatsapp \
-  intellij-idea-ce \
-  toggl \
-  graphiql \
-  tunnelblick \
-  caffeine \
-  autodesk-fusion360 \
-  balenaetcher \
-  prusaslicer \
-  send-to-kindle
+# brew tap d12frosted/emacs-plus
+# brew install emacs-plus
+# brew services start d12frosted/emacs-plus/emacs-plus
+
+# brew install --cask \
+#   google-chrome \
+#   skype \
+#   dropbox \
+#   slack \
+#   evernote \
+#   1password \
+#   1password-cli \
+#   docker \
+#   spectacle \
+#   omnigraffle \
+#   java \
+#   java8 \
+#   kindle \
+#   spotify \
+#   gitup \
+#   arduino \
+#   postman \
+#   whatsapp \
+#   intellij-idea-ce \
+#   toggl \
+#   graphiql \
+#   tunnelblick \
+#   caffeine \
+#   autodesk-fusion360 \
+#   balenaetcher \
+#   prusaslicer \
+#   send-to-kindle
