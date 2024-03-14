@@ -10,5 +10,3 @@ fi
 
 cd ~/dotfiles
 git submodule update --init --recursive
-#./install.rb
-
