@@ -25,6 +25,11 @@ Open Keyboard in settings, open Modifier Keys…, map Caps Lock to Ctrl.
   - upload ssh key to https://github.com/settings/keys
   - cat ~/.ssh/id_rsa.pub | pbcopy
 
+## Mac Store apps
+- Open App Store App
+- click profile 
+- find previously purchased apps you want to install
+
 ## general setup
 - Open Spectacle, allow it to do to stuff
  - open Spectacle preferences, configure it to launch at login

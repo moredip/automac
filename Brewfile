@@ -12,10 +12,19 @@ brew "ack"
 # brew "little-cms2"
 # brew "apr-util"
 # brew "boost"
+
+## PYTHON STUFF
+
 brew "python@3"
 brew "pyenv"
 brew "python-setuptools"
 brew "pipenv"
+brew "poetry"
+
+#GCP STUFF
+
+brew "cloud-sql-proxy"
+
 # brew "docutils"
 # brew "awscli"
 brew "bash-completion"
@@ -84,7 +93,7 @@ brew "node"
 brew "p7zip"
 # brew "pillow"
 # brew "pipenv"
-brew "postgresql@15" # no easy way to install just psql
+brew "postgresql@14" # no easy way to install just psql
 brew "pstree"
 brew "pulumi"
 # brew "qrencode"
@@ -102,6 +111,7 @@ brew "qmk/qmk/qmk"
 cask "1password"
 cask "1password-cli"
 cask "arduino"
+cask "arq"
 cask "autodesk-fusion"
 cask "balenaetcher"
 cask "caffeine"
