@@ -23,3 +23,7 @@ defaults write com.apple.dock autohide -bool true
 # Top right screen corner → Sleep Display
 defaults write com.apple.dock wvous-tr-corner -int 10
 defaults write com.apple.dock wvous-tr-modifier -int 0
+
+# Save screenshots to a subdir in the Desktop (default is ~/Desktop)
+mkdir -p ~/Desktop/Screenshots
+defaults write com.apple.screencapture location ~/Desktop/Screenshots
